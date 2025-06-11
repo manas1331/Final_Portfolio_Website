@@ -4,7 +4,23 @@ import { ArrowLeft, ExternalLink, Github, Calendar, Users, Star, Code } from 'lu
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 
-const projectsData = {
+interface ProjectDetailType {
+  title: string;
+  type: string;
+  image: string;
+  description: string;
+  longDescription: string;
+  technologies: string[];
+  features: string[];
+  duration: string;
+  team: string;
+  status: string;
+  year: string;
+  github?: string;
+  live?: string;
+}
+
+const projectsData: { [key: string]: ProjectDetailType } = {
   'research-paper-on-generative-ai': {
     title: 'Research Paper on Generative AI',
     type: 'RESEARCH',
