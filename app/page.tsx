@@ -270,8 +270,16 @@ export default function Home() {
       </nav>
 
       {/* Home Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center pt-20">
-        <div className="max-w-4xl mx-auto px-6 text-center">
+      <section id="home" className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/Images/coding-bg.jpg"
+            alt="Coding Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-slate-900/80"></div>
+        </div>
+        <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
           <div className="mb-8">
             {/* Auto-typing Text */}
             <div className="text-3xl md:text-4xl text-blue-400 mb-4 h-12">
@@ -282,8 +290,6 @@ export default function Home() {
                     'A Passionate CSE Engineer',
                     'AI & ML, Web Development, Enthusiast',
                     'Welcome to my portfolio website',
-                   
-                    
                   ],
                   autoStart: true,
                   loop: true,
