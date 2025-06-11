@@ -271,6 +271,7 @@ export default function Home() {
 
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+        {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
             src="/Images/coding-bg.jpg"
