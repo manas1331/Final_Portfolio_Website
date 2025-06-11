@@ -1,5 +1,5 @@
 # 🚀 Portfolio Website
-A modern, responsive developer portfolio built using Next.js and Tailwind CSS, featuring key sections such as Home, About, Projects, Skills, Education, Certificates, and Contact.
+ A modern, responsive portfolio website using Next.js and Tailwind CSS to showcase my professional journey and skills. It includes dedicated sections like Home, About, Projects, Skills, Education, Certificates, and Contact. With a clean interface, smooth transitions, and mobile-friendly design
 
 ## 🌐 Live Demo
 Website Link : [Link](https://final-portfolio-website-five.vercel.app/) to view the live website deployed using Vercel.
