@@ -288,7 +288,7 @@ export default function Home() {
                 options={{
                   strings: [
                     'Hi, I am ',
-                    'A Passionate CSE Engineer',
+                    'A Passionate CS Engineer',
                     'AI & ML, Web Development, Enthusiast',
                     'Welcome to my portfolio website',
                   ],
